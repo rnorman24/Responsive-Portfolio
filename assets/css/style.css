@@ -268,11 +268,50 @@ footer {
 @media (max-width: 768px) {
   .container {
     width: 100%;
+    max-width: 640px;
+  }
+  main {
+    width: 100%;
+    max-width: 640px
+
+  }
+  h1 {
+    width: 100%;
+    max-width: 270px;
+    font-size: 22px;
+    padding: 24px;
+  }
+  aside {
+    width 100%;
+    max-width: 640px;
+  }
+  h3, #socialGroup {
+    text-align: left;
   }
 }
 
 @media  (max-width: 640px){
   .container {
     width: 100%;
+    max-width: 540px;
+  }
+  h1 {
+    width: 100%;
+    max-width: 540px;
+    font-size: 22px;
+    padding: 24px;
+  }
+  ul {
+    width: 100%;
+    max-width: 540;
+    float: none;
+    padding: 20px;
+    margin: 0;
+  }
+  li a {
+    margin: 0;
+    margin-left: 35px;
+    margin-right: 35px;
+
   }
 }
