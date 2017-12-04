@@ -256,13 +256,22 @@ footer {
   main {
     width: 100%;
     max-width: 280px
-
   }
   h1 {
     width: 100%;
     max-width: 270px;
     font-size: 22px;
     padding: 24px;
+    background: #c7a212;
+  }
+  #submit, .button, {
+    background: #c7a212;
+  }
+  h2, h3 {
+    color: #c7a212;
+  }
+  footer {
+    border-top: 8px solid #c7a212;
   }
 }
 
@@ -281,6 +290,7 @@ footer {
     max-width: 270px;
     font-size: 22px;
     padding: 24px;
+    background: #b2043b;
   }
   aside {
     width 100%;
@@ -288,6 +298,16 @@ footer {
   }
   h3, #socialGroup {
     text-align: left;
+    color: #b2043b;
+  }
+  h2 {
+    color: #b2043b;
+  }
+  footer {
+    border-top: 8px solid #b2043b;
+  }
+  #submit, .button, {
+    background: #b2043b;
   }
 }
 
@@ -301,6 +321,7 @@ footer {
     max-width: 540px;
     font-size: 22px;
     padding: 24px;
+    background: #4977b2;
   }
   ul {
     width: 100%;
@@ -314,5 +335,14 @@ footer {
     margin-left: 35px;
     margin-right: 35px;
 
+  }
+  h2, h3 {
+    color: #4977b2;
+  }
+  footer {
+    border-top: 8px solid #4977b2;
+  }
+  #submit, .button, {
+    background: #4977b2;
   }
 }
