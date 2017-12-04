@@ -168,23 +168,23 @@ main {
 }
 
 #bio-image {
-  margin: 20px;
-  width: 200px;
-  height: 200px;
-  float: left;
+  margin-top: 10px;
+  margin-right: 25px;
 }
 
 #portfolio-image {
-  width: 264px;
+  width: 100%;
+  max-width: 274px;
   height: 200px;
 }
 
 .image-container {
     position: relative;
     float: left;
-    width: 264px;
-    height: 200px;
-    margin: 30px;
+    width: 100%;
+    max-width: 274px;
+    margin-right: 20px;
+    margin-bottom: 25px;
 }
 
 .button {
@@ -193,7 +193,8 @@ main {
     background: #4aaaa5;
     color: white;
     float: left;
-    width: 264px;
+    width: 100%;
+    max-width: 274px;
     padding: 16px;
     font-size: 20px;
     text-align: center;
