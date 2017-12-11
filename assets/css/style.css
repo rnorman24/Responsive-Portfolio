@@ -275,6 +275,9 @@ input[type=submit] {
   .work:nth-child(even) {
     margin-right: 0;
   }
+  .work:nth-child(odd) {
+    float: right;
+  }
   .auth-image {
     width: 50%;
   }
