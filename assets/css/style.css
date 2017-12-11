@@ -256,6 +256,15 @@ input[type=submit] {
     width: 100%;
     margin-bottom: 20px;
   }
+  h1, h2, h3 {
+    color: #c7a212;
+  }
+  #logo, .work h3, input[type=submit] {
+    background: #c7a212;
+  }
+  footer {
+    border-top: 8px solid #c7a212;
+  }
 }
 
 @media only screen and (max-width: 768px) {
@@ -280,6 +289,15 @@ input[type=submit] {
   }
   .auth-image {
     width: 50%;
+  }
+  h1, h2, h3 {
+    color: #b2043b;
+  }
+  #logo, .work h3, input[type=submit] {
+    background: #b2043b;
+  }
+  footer {
+    border-top: 8px solid #b2043b;
   }
 }
 
@@ -306,5 +324,14 @@ input[type=submit] {
     width: 30%;
     padding-left: 0;
     margin-left: 0;
+  }
+  h1, h2, h3 {
+    color: #4977b2;
+  }
+  #logo, .work h3, input[type=submit] {
+    background: #4977b2;
+  }
+  footer {
+    border-top: 8px solid #4977b2;
   }
 }
